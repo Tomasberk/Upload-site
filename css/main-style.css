@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+button,
+input,
+textarea {
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --dark-one: #828788;
+    --dark-two: #393c3c;
+    --main-color: #236900;
+    --light-one: rgb(238, 238, 238);
+    --light-two: #f9f9f9;
+    --light-three: #ffffff;
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    background-color: lightgray;
+}
+
+main {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    width: 100vw;
+    height: 20vh;
+    background-color: lightgray;
+}
